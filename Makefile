@@ -1,2 +1,5 @@
 install_app:
-	helm upgrade --atomic --install tedo-test ./chart
+	helm upgrade --atomic --install make-helm-example ./chart
+
+uninstall_app:
+	helm uninstall make-helm-example
